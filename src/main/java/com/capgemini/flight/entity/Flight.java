@@ -1,7 +1,11 @@
 package com.capgemini.flight.entity;
 
 import java.math.BigInteger;
-
+/**
+ * 
+ * @author Dipesh kushwaha
+ *@method : toString
+ */
 public class Flight {
 	private BigInteger flightNumber;
 	private String flightname;

@@ -1,6 +1,11 @@
 package com.capgemini.flight.entity;
 
 import java.time.LocalDate;
+/**
+ * 
+ * @author Dipesh kushwaha
+ *@method : toString
+ */
 import java.time.LocalDateTime;
 
 public class Schedule {

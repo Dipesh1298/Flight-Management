@@ -45,8 +45,6 @@ public class FlightSystemClient {
 				System.out.println("Enter travel Date in yyyy-MM-dd format:");
 				String str = scan.next();
 				LocalDate ltd = LocalDate.parse(str);
-				DateTimeFormatter df = DateTimeFormatter.ofPattern("y-M-d");
-				df.format(ltd);
 				System.out.println("------------- FlightSchedule And Seatavailability----------");
 				System.out.println(ser.getSchedule1(src, dest, ltd));
 			} catch (AirportNotFoundException | ScheduleNotFoundException | ValidateException
@@ -54,7 +52,7 @@ public class FlightSystemClient {
 				System.out.println(e.getMessage());
 			}
 
-			System.out.println("press y to continue");
+			System.err.println("press y to continue");
 			opt = scan.next();
 		} while (opt.equals("y"));
 	}

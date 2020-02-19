@@ -12,15 +12,15 @@ import com.capgemini.flight.exception.ScheduleNotFoundException;
  * 
  * @author Dipesh kushwaha
  * 
- *         ***************************************************************************************************
+ *  ***************************************************************************************************
  */
 public interface FlightSystemDao {
 	/*****************************************************************************************************
 	 * 
 	 * @Description:
 	 * @methods: getsrcAirport,getdestAirport,getSchedule
-	 * @param srcloc.destloc
-	 *            date
+	 * @param srcloc,
+	 *            destloc ,date
 	 * @return
 	 * @throws AirportNotFoundException,ScheduleNotFoundException
 	 */

@@ -4,13 +4,18 @@ public class Airport {
 	/****
 	 * @author Dipesh Kushwaha
 	 * Discription: 
-	 * Method:
+	 * Method:getAirportName(),getAirportLocation(),getAirportCode(),toString();
 	 * 
 	 */
 	private String airportName;
 	private String airportLocation;
 	private String airportCode;
-
+/**
+ * 
+ * @param airportName
+ * @param airportLocation
+ * @param airportCode
+ */
 	public Airport(String airportName, String airportLocation, String airportCode) {
 		super();
 		this.airportName = airportName;

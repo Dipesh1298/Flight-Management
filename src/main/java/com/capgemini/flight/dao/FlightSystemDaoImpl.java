@@ -11,24 +11,27 @@ import com.capgemini.flight.entity.ScheduledFlight;
 import com.capgemini.flight.exception.AirportNotFoundException;
 import com.capgemini.flight.exception.ScheduleNotFoundException;
 import com.capgemini.flight.util.FlightRepository;
+
 /******************************************************************************************
  * 
  * @author Dipesh kushwaha
- * Description:
+ * @Description:To get Schedule and Seat-availability
  ******************************************************************************************
  */
 public class FlightSystemDaoImpl implements FlightSystemDao {
-	
 
 	List<ScheduledFlight> schedFlight = FlightRepository.getScheduledFlight();
 	List<Schedule> schedulelst = FlightRepository.getSchedule();
 	List<Airport> airportlst = FlightRepository.getAirport();
 	Airport airport;
-/*** 
- * @ method : getsrcAirport by using stream filtering the airport if airport nor match then throw airportnotFoundException
- *@return :srcAirport
- *
- *****/
+
+	/***
+	 * @ method : getsrcAirport by using stream filtering the airport if airport nor
+	 * match then throw airportnotFoundException
+	 * 
+	 * @return :srcAirport
+	 * 
+	 *****/
 	public Airport getsrcAirport(String srcloc) throws AirportNotFoundException {
 		List<Airport> lst = airportlst.stream().filter(airport -> airport.getAirportLocation().contentEquals(srcloc))
 				.collect(Collectors.toList());
@@ -38,9 +41,11 @@ public class FlightSystemDaoImpl implements FlightSystemDao {
 		return srcAirport;
 	}
 
-	/*** 
-	 * @ method :getdestAirport by using stream filtering the airport if airport nor match then throw airportnotFoundException
-	 *@return :destAirport
+	/***
+	 * @ method :getdestAirport by using stream filtering the airport if airport nor
+	 * match then throw airportnotFoundException
+	 * 
+	 * @return :destAirport
 	 *
 	 *****/
 	public Airport getdestAirport(String destloc) throws AirportNotFoundException {
@@ -54,13 +59,16 @@ public class FlightSystemDaoImpl implements FlightSystemDao {
 	}
 
 	/**
-	 * @method: getSchedule 
+	 * @method: getSchedule to get scheduledFlight and Throws
+	 * 
+	 * @return type:list
+	 * @param srcAirport
+	 *            ,destAirport,date
 	 * 
 	 */
 	public List<ScheduledFlight> getSchedule(Airport srcAirport, Airport destAirport, LocalDate date)
 			throws AirportNotFoundException, ScheduleNotFoundException {
 
-		
 		List<ScheduledFlight> schedule = schedFlight.stream()
 				.filter(e -> e.getSchedule().getSourceAirport().equals(srcAirport)
 						&& e.getSchedule().getDestinationAirport().equals(destAirport)
@@ -68,7 +76,7 @@ public class FlightSystemDaoImpl implements FlightSystemDao {
 				.collect(Collectors.toList());
 
 		if (schedule.isEmpty())
-			throw new ScheduleNotFoundException("schedule not found");
+			throw new ScheduleNotFoundException("Schedule not found");
 
 		return schedule;
 

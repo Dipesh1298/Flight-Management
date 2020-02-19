@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.capgemini.flight.test.FlightTest" time="0.038" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.capgemini.flight.test.FlightTest" time="0.051" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,29 +17,29 @@
     <property name="os.name" value="Windows 10"/>
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dipesh\AppData\Local\Temp\surefire6370756309543192498\surefirebooter8796037476757260763.jar C:\Users\Dipesh\AppData\Local\Temp\surefire6370756309543192498 2020-02-18T14-55-31_870-jvmRun1 surefire1003933446291359549tmp surefire_01913812091532789765tmp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Dipesh\AppData\Local\Temp\surefire8693076167970428149\surefirebooter5750712748392050600.jar C:\Users\Dipesh\AppData\Local\Temp\surefire8693076167970428149 2020-02-19T00-09-13_062-jvmRun1 surefire5918906431542759763tmp surefire_05612494839165330209tmp"/>
     <property name="surefire.test.class.path" value="E:\eclipse-workspace\mavenFlight\target\test-classes;E:\eclipse-workspace\mavenFlight\target\classes;C:\Users\Dipesh\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;C:\Users\Dipesh\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Dipesh\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dipesh\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\Dipesh\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\Dipesh\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\Dipesh\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.1\junit-jupiter-params-5.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Dipesh"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_231"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
     <property name="basedir" value="E:\eclipse-workspace\mavenFlight"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dipesh\AppData\Local\Temp\surefire6370756309543192498\surefirebooter8796037476757260763.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_231\lib\resources.jar;C:\Program Files\Java\jre1.8.0_231\lib\rt.jar;C:\Program Files\Java\jre1.8.0_231\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_231\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_231\lib\jce.jar;C:\Program Files\Java\jre1.8.0_231\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_231\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_231\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dipesh\AppData\Local\Temp\surefire8693076167970428149\surefirebooter5750712748392050600.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_231-b11"/>
     <property name="user.name" value="Dipesh"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -52,17 +52,15 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_231\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Users\Dipesh\AppData\Local\Microsoft\WindowsApps;;C:\Users\Dipesh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dipesh\AppData\Roaming\npm;E:\Capgemini Applications\sts-bundle\sts-3.9.2.RELEASE;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_231/bin/server;C:/Program Files/Java/jre1.8.0_231/bin;C:/Program Files/Java/jre1.8.0_231/lib/amd64;C:\oraclexe\app\oracle\product\10.2.0\server\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Users\Dipesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Dipesh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dipesh\AppData\Roaming\npm;C:\Users\Dipesh\AppData\Local\GitHubDesktop\bin;E:\Capgemini Applications\sts-bundle\sts-3.9.2.RELEASE;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.231-b11"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_231\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="getSchedule1" classname="com.capgemini.flight.test.FlightTest" time="0.023"/>
-  <testcase name="getSchedule2" classname="com.capgemini.flight.test.FlightTest" time="0.001"/>
+  <testcase name="getSchedule1" classname="com.capgemini.flight.test.FlightTest" time="0.034"/>
+  <testcase name="getSchedule2" classname="com.capgemini.flight.test.FlightTest" time="0.002"/>
   <testcase name="getSchedule3" classname="com.capgemini.flight.test.FlightTest" time="0.001"/>
-  <testcase name="testAirportName1" classname="com.capgemini.flight.test.FlightTest" time="0.001"/>
-  <testcase name="testAirportName2" classname="com.capgemini.flight.test.FlightTest" time="0"/>
 </testsuite>

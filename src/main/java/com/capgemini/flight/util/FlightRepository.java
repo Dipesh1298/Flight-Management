@@ -23,7 +23,7 @@ public class FlightRepository {
 	public static List<Schedule> schedulelst = new ArrayList<Schedule>();
 
 	static {
-		/****************** Adding flight *********************************/
+
 		Flight flight1 = new Flight(BigInteger.valueOf(1001), "Air India", 310);
 		Flight flight2 = new Flight(BigInteger.valueOf(1002), "Spice jet", 250);
 		Flight flight3 = new Flight(BigInteger.valueOf(1003), "IndiGo", 200);
@@ -31,9 +31,6 @@ public class FlightRepository {
 		Flight flight5 = new Flight(BigInteger.valueOf(1005), "Air India", 230);
 		Flight flight6 = new Flight(BigInteger.valueOf(1005), "IndiGo", 230);
 
-		/**********************
-		 * Adding airport and adding to list
-		 ********************************/
 		Airport airport1 = new Airport("Chandigarh Airport", "Chandigarh", "IXC");
 		Airport airport2 = new Airport("Bengaluru International Airport", "Bengaluru", "BLR");
 		Airport airport3 = new Airport("Bhopal Airport", "Bhopal", "BHO");
@@ -46,9 +43,7 @@ public class FlightRepository {
 		airportlst.add(airport4);
 		airportlst.add(airport5);
 		airportlst.add(airport6);
-		/*************
-		 * Adding Schedules and adding to list
-		 ***********************************/
+
 		Schedule schedule1 = new Schedule(airport1, airport2, LocalDate.of(2020, 03, 10), LocalDate.of(2020, 03, 10));
 		Schedule schedule2 = new Schedule(airport2, airport5, LocalDate.of(2020, 02, 20), LocalDate.of(2020, 02, 20));
 		Schedule schedule3 = new Schedule(airport5, airport2, LocalDate.of(2020, 02, 19), LocalDate.of(2020, 02, 19));
@@ -61,9 +56,7 @@ public class FlightRepository {
 		schedulelst.add(schedule4);
 		schedulelst.add(schedule5);
 		schedulelst.add(schedule6);
-		/*********************
-		 * Adding ScheduledFlight and adding to list
-		 ***************************/
+
 		ScheduledFlight sflight1 = new ScheduledFlight(flight1, 50, schedule1);
 		ScheduledFlight sflight2 = new ScheduledFlight(flight2, 26, schedule2);
 		ScheduledFlight sflight3 = new ScheduledFlight(flight3, 39, schedule4);

@@ -2,7 +2,8 @@ package com.capgemini.flight.entity;
 /******************************************************************************************
  * 
  * @author Dipesh kushwaha
- * Description:
+ * Description:constructor,getters
+ * @method:toString
  *****************************************************************************************
  */
 public class ScheduledFlight {
